@@ -1,0 +1,12 @@
+:root { --page: #F2F1EE; --text: #55544F; --muted: #626663; --accent: #806039; --line: #C8CBC3; color-scheme: light dark; }
+@media (prefers-color-scheme: dark) { :root { --page: #252729; --text: #D1D3D4; --muted: #BFC2C4; --accent: #CBBB98; --line: #454A4D; } }
+body { margin: 0; background: var(--page); color: var(--text); font: 16px/1.7 -apple-system, "PingFang SC", "Helvetica Neue", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+nav { font-size: 14px; color: var(--muted); }
+a { color: var(--accent); }
+article { padding-top: 24px; }
+article + article { margin-top: 48px; border-top: 1px solid var(--line); }
+h1 { font-size: 26px; font-weight: 600; margin: 0 0 4px; }
+h2 { font-size: 18px; font-weight: 600; margin: 28px 0 8px; }
+h3 { font-size: 16px; font-weight: 600; margin: 20px 0 4px; }
+.meta { color: var(--muted); font-size: 14px; margin-top: 0; }
